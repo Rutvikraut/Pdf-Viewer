@@ -5,8 +5,6 @@ import cors from "cors";
 import path from 'path';
 import { readFile } from 'fs/promises';
 import { fileURLToPath } from 'url';
-import { compress } from 'compress-pdf';
-
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

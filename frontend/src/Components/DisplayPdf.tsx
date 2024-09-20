@@ -1,7 +1,5 @@
-// import { useState } from "react";
 import { Document,pdfjs,Page } from "react-pdf";
 import { useParams } from "react-router";
-
 import { useEffect, useState } from "react"
 import { loadPdfFile } from "../api/loadPdfApi";
 
@@ -39,12 +37,12 @@ const DisplayPdf = () => {
         }
     },[filename])
   return (
-    <div>
+    <div className="flex flex-col items-center">
         {pdfUrl && (
           <>
             <div className='w-full flex flex-col justify-center items-center py-4'>
               
-              <div className='mt-6'>
+              <div className='mt-6 max-w-3xl'>
               {totalPages && (
                 <div className='flex gap-4 mb-4 justify-between rounded px-2'>
                   <button onClick={handlePrevPage} className='bg-blue-500 px-3 rounded'>Prev</button>
@@ -57,7 +55,7 @@ const DisplayPdf = () => {
                   pageNumber={pageNum}
                   renderAnnotationLayer={false}
                   renderTextLayer={false}
-                  className="pdf-page"
+                  className="pdf-page w-full"
                 />
               </Document>
               

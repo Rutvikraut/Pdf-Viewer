@@ -5,7 +5,6 @@ export async function getPdfList() {
         });
         if (response.ok) {
             const data = await response.json();
-            console.log("PDF list fetched successfully:", data.files);
             return data.files;
         } else {
             throw new Error("Failed to fetch PDF list");
