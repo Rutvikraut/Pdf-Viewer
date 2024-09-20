@@ -9,8 +9,8 @@ This project is a web application for uploading and viewing PDF files. Users can
 4) Real-time feedback for file upload status.
 
 ## Technologies Used
-Frontend : ReactJs, Tailwind CSS, TypeScript
-Backend : Node.js, Express, TypeScript
+- **Frontend** : ReactJs, Tailwind CSS, TypeScript
+- **Backend** : Node.js, Express, TypeScript, Firebase Storage
 
 ## SetUp Instructions
 ### Pre-requisites
