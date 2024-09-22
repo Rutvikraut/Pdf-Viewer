@@ -3,10 +3,10 @@
 This project is a web application for uploading and viewing PDF files. Users can upload PDF files, which are validated for size and type, and the files are stored on the server. A PDF viewer is also included for users to view uploaded documents.
 
 ## Features
-1) File upload with validation for PDF type and size (limit of 4 MB).
-2) PDF viewing functionality.
-3) PDF file storage on the server.
-4) Real-time feedback for file upload status.
+- File upload with validation for PDF type and size (limit of 4 MB).
+- PDF viewing functionality.
+- PDF file storage on the server.
+- Real-time feedback for file upload status.
 
 ## Technologies Used
 - **Frontend** : ReactJs, Tailwind CSS, TypeScript
